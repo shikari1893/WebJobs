@@ -48,5 +48,5 @@ steps:
     packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
     enableCustomDeployment: true
     DeploymentType: 'webDeploy'
-    ExcludeFilesFromAppDataFlag: false
-    RemoveAdditionalFilesFlag: true
+    #ExcludeFilesFromAppDataFlag: false
+    #RemoveAdditionalFilesFlag: true
